@@ -1,0 +1,19 @@
+# ROS2 / Colcon build artifacts
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Trailing workspace garbage
+*.swp
+*.swo
+
+# VS Code settings
+.vscode/
+
+# IDE/OS junk
+.DS_Store
+Thumbs.db
