@@ -51,14 +51,4 @@ Custom Gazebo world containing:
 - Obstacles  
 - Furniture with known height clearances  
 
-## Project Directory Structure
-
-```
-robot_vacuum_ws/
-└── src/
-    ├── clearance_mapper/       # Node for height clearance mapping
-    ├── coverage_planner/       # Coverage waypoint generation logic
-    ├── metrics_logger/         # Coverage/time/collision metrics
-    ├── vacuum_navigation/      # Nav2 configs & launch files
-    └── vacuum_simulation/      # Gazebo world, models, spawners
 
